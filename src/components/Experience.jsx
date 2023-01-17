@@ -12,6 +12,10 @@ import postgresql from "../assets/postgresql.png";
 import mysql from "../assets/mysql.png";
 import mongodb from "../assets/mongodb.png";
 import git from "../assets/git.png";
+import tailwind from '../assets/tailwind.png';
+import docker from '../assets/docker.png';
+import firebase from '../assets/firebase.png';
+import kubernetes from '../assets/kubernetes.png';
 
 const Experience = () => {
   const techs = [
@@ -37,7 +41,7 @@ const Experience = () => {
       id: 4,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-cyan-400",
     },
     {
       id: 5,
@@ -86,6 +90,30 @@ const Experience = () => {
       src: mongodb,
       title: "MongoDB",
       style: "shadow-green-500",
+    },
+    {
+      id: 15,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-cyan-400",
+    },
+    {
+      id: 16,
+      src: docker,
+      title: "Docker",
+      style: "shadow-sky-600",
+    },
+    {
+      id: 17,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-amber-400",
+    },
+    {
+      id: 18,
+      src: kubernetes,
+      title: "Kubernetes",
+      style: "shadow-blue-500",
     }
   ];
 
