@@ -16,6 +16,7 @@ import tailwind from '../assets/tailwind.png';
 import docker from '../assets/docker.png';
 import firebase from '../assets/firebase.png';
 import kubernetes from '../assets/kubernetes.png';
+import typescript from '../assets/typescript.png';
 
 const Experience = () => {
   const techs = [
@@ -114,7 +115,13 @@ const Experience = () => {
       src: kubernetes,
       title: "Kubernetes",
       style: "shadow-blue-500",
-    }
+    },
+    {
+      id: 19,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-500",
+    },
   ];
 
   return (

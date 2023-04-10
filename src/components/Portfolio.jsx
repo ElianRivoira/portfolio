@@ -2,6 +2,7 @@ import React from "react";
 import tmdb from "../assets/portfolio/tmdb.png";
 import allio from "../assets/portfolio/al_lio.png";
 import prode from "../assets/portfolio/prode.png";
+import aidamSite from "../assets/portfolio/aidam-site.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,7 +23,13 @@ const Portfolio = () => {
       src: prode,
       demo: '',
       code: 'https://github.com/ElianRivoira/PRODE-Tonic3'
-    }
+    },
+    {
+      id: 4,
+      src: aidamSite,
+      demo: 'https://www.aidam.com.ar',
+      code: 'https://github.com/ElianRivoira/aidam-site'
+    },
   ];
 
   return (
@@ -43,7 +50,7 @@ const Portfolio = () => {
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
-                alt=""
+                alt="img"
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
