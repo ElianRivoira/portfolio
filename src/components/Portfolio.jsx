@@ -3,6 +3,7 @@ import tmdb from "../assets/portfolio/tmdb.png";
 import allio from "../assets/portfolio/al_lio.png";
 import prode from "../assets/portfolio/prode.png";
 import aidamSite from "../assets/portfolio/aidam-site.png";
+import aidamApp from "../assets/portfolio/aidam-app.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,6 +30,12 @@ const Portfolio = () => {
       src: aidamSite,
       demo: 'https://www.aidam.com.ar',
       code: 'https://github.com/ElianRivoira/aidam-site'
+    },
+    {
+      id: 5,
+      src: aidamApp,
+      demo: '',
+      code: 'https://github.com/ElianRivoira/aidam'
     },
   ];
 
