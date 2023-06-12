@@ -2,31 +2,23 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div
-      name='about'
-      className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'
-    >
+    <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
-            About Me
-          </p>
+          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About Me</p>
         </div>
 
         <p className='text-xl mt-20'>
-          Al terminar la secundaria, comencé a estudiar Ingeniería informática,
-          carrera a partir de la cual descubrí el desarrollo web, que me generó
-          una gran curiosidad y eventual pasión. Para aumentar mis oportunidades
-          de insertarme laboralmente en la industria decidí realizar un coding
-          bootcamp en “Plataforma 5”. Durante esa modalidad de cursado intensivo
-          obtuve la capacidad de aprender tecnologías en un corto periodo de
-          tiempo, además de trabajar en equipo con metodologías ágiles.
+          After high school, I began to study computer engineering, a career from which I discovered web development,
+          which generated a great curiosity and eventual passion in me. To increase my chances of finding a job in the
+          industry, I decided to take a coding bootcamp at "Plataforma 5". During this intensive course I gained the
+          ability to learn technologies in a short period of time, in addition to working in a team with agile
+          methodologies such as SCRUM.
         </p>
 
         <br />
 
-        <p className='text-xl'>
-        </p>
+        <p className='text-xl'></p>
       </div>
     </div>
   );
